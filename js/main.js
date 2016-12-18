@@ -1,6 +1,11 @@
 $(function () {
 
 	/* Main menu styles */
+	if ($(window).scrollTop() >= 50) {
+
+			$("#main-nav").addClass("scroll");
+
+		}
 
 	$(window).scroll(function () {
 
